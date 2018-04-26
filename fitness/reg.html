@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Registeration Page </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 50px;
+    background-color: white;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #000000;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 25;
+}
+
+}
+</style>
+    </head>
+    <body>
+
+        
+<form action="action_page.php" method="POST">
+  <div class="container">
+    <h1 style="font-family: arial; color: #266368"><u><center>Give Some Data<center></center></u></h1>
+    <hr>
+
+    <label for="name"  style="font-family: arial; color: #266368"><b> Name </b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+<br><br>
+
+    <label for="age" style="font-family: arial; color: #266368"><b>   Age </b></label>
+    <input type="text" placeholder="Enter Age" name="age" required>
+
+<br><br>
+
+    <label for="gender" style="font-family: arial; color: #266368"><b> Gender </b></label><br>
+    <input type="radio" name="gender" value="male" > Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+    
+    <label for="height" style="font-family: arial; color: #266368"><b>Height</b></label>
+    <input type="text" placeholder="Enter Height in cm" name="height" required>
+
+<br><br>
+
+    <label for="weight" style="font-family: arial; color: #266368"><b>Weight</b></label>
+    <input type="text" placeholder="Enter Weight in kg" name="Weight" required>
+
+<br><br>
+
+
+    <label for="blood_pressure" style="font-family: arial; color: #266368"><b>Blood Pressure</b></label>
+    <input type="text" placeholder="Enter Blood Pressure" name="blood_pressure" required>
+
+<br><br>
+    <label for="exercie" style="font-family: arial; color: #266368"><b>Exercise</b></label><br>
+    <input type="radio" name="exercie" value="yes"> Yes
+    <input type="radio" name="exercie" value="no"> No<br><br>
+    <hr>
+
+    <button type="submit" class="registerbtn">submit</button>
+
+  </div>                      
+                        
+</form>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+</html>
